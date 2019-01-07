@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 375865794641.dkr.ecr.eu-north-1.amazonaws.com/mircozamprogno/itecor-eks-demo
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: itecor-eks-demo
